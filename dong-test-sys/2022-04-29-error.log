@@ -1,0 +1,2 @@
+[ERROR]2022-04-29 19:35:26 - detail => AttributeError("'NoneType' object has no attribute 'log'")  in crm_test.entry.crm test system
+[ERROR]2022-04-29 19:40:16 - detail => AttributeError("'NoneType' object has no attribute 'log'")  in crm_test.entry.crm test system
