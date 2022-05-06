@@ -78,7 +78,6 @@ class Attendance:
         }
         response = user_request.post_with_formdata(url="/user/attendance/uploadAttendancePhoto",files=files,data=data)
         Request.check_response(response=response)
-        a = 1/0
 
     @auto_wired
     def run__test(self,log_service:LogService=None):
