@@ -14,6 +14,6 @@ class ImgProvider:
         canvas_height = 300
         im = Image.new("RGB",(canvas_width,canvas_height),(255,255,255))
         dr = ImageDraw.Draw(im)
-        font = ImageFont.truetype(font=r"/usr/share/fonts/truetype/ubuntu/Ubuntu-B.ttf",size=font_size)
+        font = ImageFont.truetype(font=r"./assets/fonts/Ubuntu-B.ttf",size=font_size)
         dr.text((font_size,(canvas_height - font_size) / 2),content,fill="#000000",font=font)
         im.save('{}/{}'.format(GlobalConstant.IMAGES_FOLDER,img_name))

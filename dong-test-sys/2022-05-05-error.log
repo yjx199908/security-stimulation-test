@@ -3,3 +3,18 @@
 [ERROR]2022-05-05 06:12:12 - detail => ConnectionError(MaxRetryError("HTTPSConnectionPool(host='service.raganetwork.com', port=8802): Max retries exceeded with url: /user/loginByPhonePassword?phoneNumber=%2B8617626521182&password=123456 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fb8bced5f70>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))"))  in miniprogram_test.anthentication./user/loginByPhonePassword
 [ERROR]2022-05-05 06:12:27 - detail => gaierror(-3, 'Temporary failure in name resolution')  in miniprogram_test.entry.WXminiprogram test system
 [ERROR]2022-05-05 00:29:14 - detail => ZeroDivisionError('division by zero')  in crm_test.alarm./admin/alert/alarmList
+[ERROR]2022-05-05 18:42:14 - detail => AttributeError("'NoneType' object has no attribute 'get'")  in runner.None
+[ERROR]2022-05-05 18:42:41 - detail => AttributeError("'NoneType' object has no attribute 'get'")  in runner.None
+[ERROR]2022-05-05 18:43:07 - detail => TypeError("int() argument must be a string, a bytes-like object or a number, not 'NoneType'")  in runner.None
+[ERROR]2022-05-05 18:45:41 - detail => TypeError("int() argument must be a string, a bytes-like object or a number, not 'NoneType'")  in runner.None
+[ERROR]2022-05-05 18:46:16 - detail => TypeError("int() argument must be a string, a bytes-like object or a number, not 'NoneType'")  in runner.None
+[ERROR]2022-05-05 18:47:00 - detail => ZeroDivisionError('division by zero')  in runner.None
+[ERROR]2022-05-05 18:48:19 - detail => ZeroDivisionError('division by zero')  in miniprogram_test.attendance./user/attendance/uploadAttendancePhoto
+[ERROR]2022-05-05 18:53:24 - detail => ZeroDivisionError('division by zero')  in miniprogram_test.attendance./user/attendance/uploadAttendancePhoto
+[ERROR]2022-05-05 18:58:31 - detail => ZeroDivisionError('division by zero')  in miniprogram_test.attendance./user/attendance/uploadAttendancePhoto
+[ERROR]2022-05-05 19:03:39 - detail => ZeroDivisionError('division by zero')  in miniprogram_test.attendance./user/attendance/uploadAttendancePhoto
+[ERROR]2022-05-05 19:08:45 - detail => ZeroDivisionError('division by zero')  in miniprogram_test.attendance./user/attendance/uploadAttendancePhoto
+[ERROR]2022-05-05 19:13:49 - detail => ZeroDivisionError('division by zero')  in miniprogram_test.attendance./user/attendance/uploadAttendancePhoto
+[ERROR]2022-05-05 19:18:56 - detail => ZeroDivisionError('division by zero')  in miniprogram_test.attendance./user/attendance/uploadAttendancePhoto
+[ERROR]2022-05-05 19:24:03 - detail => ZeroDivisionError('division by zero')  in miniprogram_test.attendance./user/attendance/uploadAttendancePhoto
+[ERROR]2022-05-05 19:29:07 - detail => ZeroDivisionError('division by zero')  in miniprogram_test.attendance./user/attendance/uploadAttendancePhoto

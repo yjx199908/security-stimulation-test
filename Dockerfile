@@ -1,7 +1,8 @@
 FROM python
 MAINTAINER yjx
 RUN mkdir projects
-COPY ./target/app /projects/app
-# RUN source ./bin/activate
+COPY ./ /projects
 WORKDIR /projects
-ENTRYPOINT python app
+RUN bash ./scripts/pip-config.sh
+RUN bash ./scripts/modules-install.sh
+ENTRYPOINT python /projects/main.py --interval=10
