@@ -5,4 +5,3 @@ COPY ./ /projects
 WORKDIR /projects
 RUN bash ./scripts/pip-config.sh
 RUN bash ./scripts/modules-install.sh
-ENTRYPOINT python /projects/main.py --interval=10

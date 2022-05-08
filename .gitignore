@@ -1,6 +1,8 @@
 # created by virtualenv automatically
 .vscode/
 bin/
+lib/
+dong-test-sys/
 __pycache__/
 pyvenv.cfg
 /target

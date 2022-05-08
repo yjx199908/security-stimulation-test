@@ -14,20 +14,20 @@ class Request:
     def get(self,url='',headers={},params={}) -> requests.Response:
         headers["Authorization"] = self.authorization
         url = '{}{}'.format(Request.base_url,url)
-        return requests.get(url=url,headers=headers,params=params)
+        return requests.get(url=url,headers=headers,params=params,timeout=60)
     
     def post_with_formdata(self,url='',headers={},data={},files=None) -> requests.Response:
         headers["Authorization"] = self.authorization
         url = '{}{}'.format(Request.base_url,url)
         if files is None:
-            return requests.post(url=url,headers=headers,data=data)
+            return requests.post(url=url,headers=headers,data=data,timeout=60)
         else:
-            return requests.post(url=url,headers=headers,files=files,data=data)
+            return requests.post(url=url,headers=headers,files=files,data=data,timeout=60)
     
     def post_with_json(self,url='',headers={},json={}) -> requests.Response:
         headers["Authorization"] = self.authorization
         url = '{}{}'.format(Request.base_url,url)
-        return requests.post(url=url,headers=headers,json=json)
+        return requests.post(url=url,headers=headers,json=json,timeout=60)
 
     @staticmethod
     def check_response(response:requests.Response) -> None:

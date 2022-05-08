@@ -1,0 +1,40 @@
+[ERROR]2022-05-06 17:21:13 - detail => Exception("返回数据格式不包含code,response.json()为:{'timestamp': '2022-05-06T09:21:13.039+00:00', 'path': '/user/loginByPhonePassword', 'status': 500, 'error': 'Internal Server Error', 'requestId': '96f5b5e2-1'}")  in miniprogram_test.anthentication./user/loginByPhonePassword
+[ERROR]2022-05-06 17:21:14 - detail => AttributeError("'NoneType' object has no attribute 'get'")  in miniprogram_test.attendance./user/attendance/fence
+[ERROR]2022-05-06 17:21:15 - detail => ValueError('not enough values to unpack (expected 2, got 0)')  in miniprogram_test.attendance./user/attendance/location/monitor
+[ERROR]2022-05-06 17:21:17 - detail => ValueError('not enough values to unpack (expected 2, got 0)')  in miniprogram_test.attendance./user/attendance/attend
+[ERROR]2022-05-06 17:21:19 - there isn't the variable named attendance_id in container, skip this step
+[ERROR]2022-05-06 17:26:21 - detail => Exception("返回数据格式不包含code,response.json()为:{'timestamp': '2022-05-06T09:26:21.415+00:00', 'path': '/user/loginByPhonePassword', 'status': 500, 'error': 'Internal Server Error', 'requestId': 'd00aa683-1'}")  in miniprogram_test.anthentication./user/loginByPhonePassword
+[ERROR]2022-05-06 17:26:23 - detail => AttributeError("'NoneType' object has no attribute 'get'")  in miniprogram_test.attendance./user/attendance/fence
+[ERROR]2022-05-06 17:26:24 - detail => ValueError('not enough values to unpack (expected 2, got 0)')  in miniprogram_test.attendance./user/attendance/location/monitor
+[ERROR]2022-05-06 17:26:26 - detail => ValueError('not enough values to unpack (expected 2, got 0)')  in miniprogram_test.attendance./user/attendance/attend
+[ERROR]2022-05-06 17:26:27 - there isn't the variable named attendance_id in container, skip this step
+[ERROR]2022-05-06 17:31:35 - detail => Exception("返回数据格式不包含code,response.json()为:{'timestamp': '2022-05-06T09:31:35.223+00:00', 'path': '/user/loginByPhonePassword', 'status': 500, 'error': 'Internal Server Error', 'requestId': '8eafcfca-1'}")  in miniprogram_test.anthentication./user/loginByPhonePassword
+[ERROR]2022-05-06 17:31:36 - detail => AttributeError("'NoneType' object has no attribute 'get'")  in miniprogram_test.attendance./user/attendance/fence
+[ERROR]2022-05-06 17:31:37 - detail => ValueError('not enough values to unpack (expected 2, got 0)')  in miniprogram_test.attendance./user/attendance/location/monitor
+[ERROR]2022-05-06 17:31:38 - detail => ValueError('not enough values to unpack (expected 2, got 0)')  in miniprogram_test.attendance./user/attendance/attend
+[ERROR]2022-05-06 17:31:40 - there isn't the variable named attendance_id in container, skip this step
+[ERROR]2022-05-06 17:36:47 - detail => Exception("返回数据格式不包含code,response.json()为:{'timestamp': '2022-05-06T09:36:47.020+00:00', 'path': '/user/loginByPhonePassword', 'status': 500, 'error': 'Internal Server Error', 'requestId': '20a3804e-1'}")  in miniprogram_test.anthentication./user/loginByPhonePassword
+[ERROR]2022-05-06 17:36:48 - detail => AttributeError("'NoneType' object has no attribute 'get'")  in miniprogram_test.attendance./user/attendance/fence
+[ERROR]2022-05-06 17:36:49 - detail => ValueError('not enough values to unpack (expected 2, got 0)')  in miniprogram_test.attendance./user/attendance/location/monitor
+[ERROR]2022-05-06 17:36:50 - detail => ValueError('not enough values to unpack (expected 2, got 0)')  in miniprogram_test.attendance./user/attendance/attend
+[ERROR]2022-05-06 17:36:51 - there isn't the variable named attendance_id in container, skip this step
+[ERROR]2022-05-06 17:41:53 - detail => Exception("返回数据格式不包含code,response.json()为:{'timestamp': '2022-05-06T09:41:53.866+00:00', 'path': '/user/loginByPhonePassword', 'status': 500, 'error': 'Internal Server Error', 'requestId': 'b986567b-1'}")  in miniprogram_test.anthentication./user/loginByPhonePassword
+[ERROR]2022-05-06 17:41:55 - detail => AttributeError("'NoneType' object has no attribute 'get'")  in miniprogram_test.attendance./user/attendance/fence
+[ERROR]2022-05-06 17:41:57 - detail => ValueError('not enough values to unpack (expected 2, got 0)')  in miniprogram_test.attendance./user/attendance/location/monitor
+[ERROR]2022-05-06 17:41:58 - detail => ValueError('not enough values to unpack (expected 2, got 0)')  in miniprogram_test.attendance./user/attendance/attend
+[ERROR]2022-05-06 17:41:59 - there isn't the variable named attendance_id in container, skip this step
+[ERROR]2022-05-06 17:47:01 - detail => Exception("返回数据格式不包含code,response.json()为:{'timestamp': '2022-05-06T09:47:01.729+00:00', 'path': '/user/loginByPhonePassword', 'status': 500, 'error': 'Internal Server Error', 'requestId': '3ed3ded8-1'}")  in miniprogram_test.anthentication./user/loginByPhonePassword
+[ERROR]2022-05-06 17:47:03 - detail => AttributeError("'NoneType' object has no attribute 'get'")  in miniprogram_test.attendance./user/attendance/fence
+[ERROR]2022-05-06 17:47:04 - detail => ValueError('not enough values to unpack (expected 2, got 0)')  in miniprogram_test.attendance./user/attendance/location/monitor
+[ERROR]2022-05-06 17:47:05 - detail => ValueError('not enough values to unpack (expected 2, got 0)')  in miniprogram_test.attendance./user/attendance/attend
+[ERROR]2022-05-06 17:47:06 - there isn't the variable named attendance_id in container, skip this step
+[ERROR]2022-05-06 18:58:14 - detail => ReadTimeout(ReadTimeoutError("HTTPSConnectionPool(host='service.raganetwork.com', port=8802): Read timed out. (read timeout=60)"))  in miniprogram_test.anthentication./user/loginByPhonePassword
+[ERROR]2022-05-06 18:58:16 - detail => AttributeError("'NoneType' object has no attribute 'get'")  in miniprogram_test.attendance./user/attendance/fence
+[ERROR]2022-05-06 18:58:17 - detail => ValueError('not enough values to unpack (expected 2, got 0)')  in miniprogram_test.attendance./user/attendance/location/monitor
+[ERROR]2022-05-06 18:58:19 - detail => ValueError('not enough values to unpack (expected 2, got 0)')  in miniprogram_test.attendance./user/attendance/attend
+[ERROR]2022-05-06 18:58:21 - there isn't the variable named attendance_id in container, skip this step
+[ERROR]2022-05-06 19:04:24 - detail => ReadTimeout(ReadTimeoutError("HTTPSConnectionPool(host='service.raganetwork.com', port=8802): Read timed out. (read timeout=60)"))  in miniprogram_test.anthentication./user/loginByPhonePassword
+[ERROR]2022-05-06 19:04:25 - detail => AttributeError("'NoneType' object has no attribute 'get'")  in miniprogram_test.attendance./user/attendance/fence
+[ERROR]2022-05-06 19:04:26 - detail => ValueError('not enough values to unpack (expected 2, got 0)')  in miniprogram_test.attendance./user/attendance/location/monitor
+[ERROR]2022-05-06 19:04:28 - detail => ValueError('not enough values to unpack (expected 2, got 0)')  in miniprogram_test.attendance./user/attendance/attend
+[ERROR]2022-05-06 19:04:30 - there isn't the variable named attendance_id in container, skip this step

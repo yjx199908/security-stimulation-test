@@ -1,7 +1,9 @@
-from array import array
 default_args = {
-    "--interval":300
+    "--interval":300,
+    "--env":'dev',
+    "--attend-photo":1, # 0:False | 1:True
 }
+
 class ArgumentAnalysiser:
     def __init__(self,argv) -> None:
         self.set_args(argv=argv)

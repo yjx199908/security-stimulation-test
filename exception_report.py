@@ -12,7 +12,10 @@ class ExceptionReporter:
         self.host_server = 'smtp.qq.com'
         self.sender = '1399590856@qq.com' 
         self.pwd = 'ompoxywkxnfdifgf' #邮箱密码
-        self.receiver = '2079925508@qq.com'
+        self.receiver = [
+            "2079925508@qq.com",
+            "809559937@qq.com"
+        ]
     
     @auto_wired
     def reported(self,module_name,path_name,detail,stack_info,log_service:LogService=None):
