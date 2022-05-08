@@ -7,6 +7,8 @@ from utils.compute_utils import compute_fence_center
 from utils.global_constant import GlobalConstant
 from logs.log_service import LogService
 from utils.img_provide import ImgProvider
+from utils.argument_analysis import ArgumentAnalysiser
+
 class Attendance:
     def __init__(self) -> None:
         pass
@@ -65,7 +67,9 @@ class Attendance:
     
     @exception_agent(module_name=__name__,path_name="/user/attendance/uploadAttendancePhoto")
     @auto_wired
-    def upload_attendance_photo_3(self,attendance_id=None,log_service:LogService=None,user_request:Request=None):
+    def upload_attendance_photo_3(self,attendance_id=None,log_service:LogService=None,user_request:Request=None,rt_arg_getter:ArgumentAnalysiser=None):
+        if int(rt_arg_getter.get("--attend-photo")) == 0:
+            return
         if attendance_id is None and log_service is not None:
             log_service.log(kind='error',content="there isn't the variable named attendance_id in container, skip this step")
             return

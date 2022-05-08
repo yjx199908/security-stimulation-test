@@ -39,15 +39,21 @@ class Request:
         elif result["code"] != 200:
             raise Exception("请求失败,code:{},message:{}".format(result['code'],result['message'])) 
 
+    # @staticmethod
+    # def with_prod(is_prod:bool):
+    #     if is_prod:
+    #         if Request.base_url == GlobalConstant.BASE_URL_PROD:
+    #             return
+    #         authenority_code = input("please input the authority code:")
+    #         if authenority_code == datetime.now().strftime("%x"): # dd/MM/yy
+    #             Request.base_url = GlobalConstant.BASE_URL_PROD
+    #         else:
+    #             print("anthority failure!")
+    #     else:
+    #         Request.base_url = GlobalConstant.BASE_URL_DEV
     @staticmethod
     def with_prod(is_prod:bool):
         if is_prod:
-            if Request.base_url == GlobalConstant.BASE_URL_PROD:
-                return
-            authenority_code = input("please input the authority code:")
-            if authenority_code == datetime.now().strftime("%x"): # dd/MM/yy
-                Request.base_url = GlobalConstant.BASE_URL_PROD
-            else:
-                print("anthority failure!")
+            Request.base_url = GlobalConstant.BASE_URL_PROD
         else:
             Request.base_url = GlobalConstant.BASE_URL_DEV

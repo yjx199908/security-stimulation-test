@@ -1,3 +1,4 @@
+from utils.request import Request
 from crm_test.entry import CrmTestEntry
 from miniprogram_test.entry import MiniProgramTestEntry
 from utils.global_data import auto_wired,GlobalData
@@ -9,6 +10,8 @@ import time
 @auto_wired
 def run(rt_arg_getter:ArgumentAnalysiser=None):
     interval = int(rt_arg_getter.get("--interval"))
+    if rt_arg_getter.get('--env') == 'prod':
+        Request.with_prod(True)
     while True:
         crm_test_entry = CrmTestEntry()
         mini_program_test_entry = MiniProgramTestEntry()
